@@ -1,0 +1,14 @@
+┌──────────────────────────────────────────────────────────────--───┐
+│                    PUBLIC NMR DATABASES                           │
+├────────────────────┬──────────────┬───────────────────────────────┤
+│  Database          │  Compounds   │  ข้อมูลที่ได้                      │
+├────────────────────┼──────────────┼───────────────────────────────┤
+│  HMDB              │  220,000+    │  1H/13C NMR, MS, pathways     │
+│  BMRB              │  15,000+     │  NMR chemical shifts          │
+│  NP-MRD            │  50,000+     │  Natural Products NMR         │
+│  SDBS (Japan)      │  35,000+     │  NMR, IR, MS spectra          │
+│  Chenomx (free)    │  300+        │  Profiling library            │
+│  BioMagResBank     │  12,000+     │  Metabolite NMR data          │
+│  MetaboLights      │  varies      │  Raw + processed NMR          │
+│  COLMAR            │  2,500+      │  2D NMR predicted spectra     │
+└────────────────────┴──────────────┴───────────────────────────────┘
