@@ -1,0 +1,55 @@
+📁 autonmr/
+│
+├── 🎯 app.py                          ← Main Streamlit Demo (สำหรับ Video)
+├── 📄 requirements.txt                 ← Dependencies ทั้งหมด
+├── 📄 README.md                        ← วิธีติดตั้ง + รัน
+├── 📄 Dockerfile                       ← Deploy container
+├── 📄 config.yaml                      ← Configuration settings
+│
+├── 📁 core/                            ← Core Logic
+│   ├── __init__.py
+│   ├── preprocessor.py                 ← Noise, Baseline, Normalization
+│   ├── peak_detector.py                ← Auto peak detection (scipy)
+│   ├── annotator.py                    ← Template Matching + Ensemble
+│   └── confidence_scorer.py            ← MSI Level 1-4 scoring
+│
+├── 📁 ml/                              ← Machine Learning (หัวใจ ML)
+│   ├── __init__.py
+│   ├── synthetic_generator.py          ← สร้าง training data จาก Public DBs
+│   ├── feature_extractor.py            ← Feature engineering
+│   ├── random_forest_model.py          ← RF training + prediction
+│   ├── cnn_model.py                    ← 1D CNN (PyTorch)
+│   ├── ensemble.py                     ← รวม RF + CNN + Template
+│   └── trainer.py                      ← Training pipeline ครบวงจร
+│
+├── 📁 database/                         ← Reference Library (Public DBs)
+│   ├── __init__.py
+│   ├── hmdb_data.py                    ← HMDB chemical shifts
+│   ├── bmrb_data.py                    ← BMRB chemical shifts
+│   ├── npmrd_data.py                   ← NP-MRD (Natural Products)
+│   ├── library_builder.py             ← Cross-validate + merge DBs
+│   └── reference_library.json          ← Final library (40+ compounds) [1]
+│
+├── 📁 validation/                       ← ตรวจสอบผลลัพธ์
+│   ├── __init__.py
+│   ├── expert_comparison.py            ← เปรียบเทียบ auto vs expert [1]
+│   └── metrics.py                      ← Precision, Recall, F1
+│
+├── 📁 visualization/                    ← แสดงผล
+│   ├── __init__.py
+│   ├── spectrum_plot.py                ← Plot spectrum + peaks
+│   ├── annotation_overlay.py          ← แสดง compound labels บน spectrum
+│   └── report_generator.py            ← สร้าง PDF/Excel report
+│
+├── 📁 data/                             ← ข้อมูล
+│   ├── demo_spectrum.csv               ← Synthetic demo data (สำหรับ demo)
+│   ├── expert_annotations.json         ← 40+ compounds จาก expert [1]
+│   └── trained_models/                 ← Saved models
+│       ├── rf_model.pkl                ← Trained Random Forest
+│       └── cnn_model.pt                ← Trained CNN weights
+│
+└── 📁 tests/                            ← Unit Tests
+    ├── test_preprocessor.py
+    ├── test_peak_detector.py
+    ├── test_annotator.py
+    └── test_ml_models.py
