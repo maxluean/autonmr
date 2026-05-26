@@ -2,472 +2,2162 @@
   "metadata": {
     "name": "AutoNMR Reference Library",
     "version": "1.0.0",
-    "description": "Cross-validated NMR reference library for Plant Extract annotation",
-    "domain": "Domain 1: Pattern Identification",
-    "sources": ["HMDB", "BMRB", "NP-MRD"],
-    "target_compounds": 40,
-    "sample_type": "Plant Extract A-N [1]",
-    "note": "Chemical shifts verified against multiple public databases"
+    "domain": "Domain 1: Pattern Identification [1]",
+    "sources": [
+      "HMDB",
+      "BMRB",
+      "NP-MRD"
+    ],
+    "tolerance_ppm": 0.02,
+    "num_compounds": 40,
+    "sample_type": "Plant Extract A-N [1]"
   },
   "compounds": {
     "Isoleucine": {
       "hmdb_id": "HMDB0000172",
-      "category": "Amino Acid",
       "peaks": [
-        {"ppm": 0.94, "multiplicity": "t", "intensity": 1.0, "assignment": "CH3-delta"},
-        {"ppm": 1.01, "multiplicity": "d", "intensity": 0.9, "assignment": "CH3-gamma"},
-        {"ppm": 1.26, "multiplicity": "m", "intensity": 0.5, "assignment": "CH2-gamma"},
-        {"ppm": 1.47, "multiplicity": "m", "intensity": 0.4, "assignment": "CH-beta"},
-        {"ppm": 3.67, "multiplicity": "d", "intensity": 0.6, "assignment": "CH-alpha"}
+        {
+          "ppm": 0.94,
+          "multiplicity": "t",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 1.01,
+          "multiplicity": "d",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 1.26,
+          "multiplicity": "m",
+          "intensity": 0.5,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 1.47,
+          "multiplicity": "m",
+          "intensity": 0.4,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.67,
+          "multiplicity": "d",
+          "intensity": 0.6,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.9
+      "num_peaks": 5,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Leucine": {
       "hmdb_id": "HMDB0000687",
-      "category": "Amino Acid",
       "peaks": [
-        {"ppm": 0.96, "multiplicity": "d", "intensity": 1.0, "assignment": "CH3-delta1"},
-        {"ppm": 0.97, "multiplicity": "d", "intensity": 0.95, "assignment": "CH3-delta2"},
-        {"ppm": 1.70, "multiplicity": "m", "intensity": 0.6, "assignment": "CH-gamma"},
-        {"ppm": 3.73, "multiplicity": "t", "intensity": 0.5, "assignment": "CH-alpha"}
+        {
+          "ppm": 0.96,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 0.97,
+          "multiplicity": "d",
+          "intensity": 0.95,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 1.7,
+          "multiplicity": "m",
+          "intensity": 0.6,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.73,
+          "multiplicity": "t",
+          "intensity": 0.5,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.9
+      "num_peaks": 4,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Valine": {
       "hmdb_id": "HMDB0000883",
-      "category": "Amino Acid",
       "peaks": [
-        {"ppm": 0.99, "multiplicity": "d", "intensity": 1.0, "assignment": "CH3-gamma1"},
-        {"ppm": 1.04, "multiplicity": "d", "intensity": 0.95, "assignment": "CH3-gamma2"},
-        {"ppm": 2.27, "multiplicity": "m", "intensity": 0.5, "assignment": "CH-beta"},
-        {"ppm": 3.61, "multiplicity": "d", "intensity": 0.6, "assignment": "CH-alpha"}
+        {
+          "ppm": 0.99,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 1.04,
+          "multiplicity": "d",
+          "intensity": 0.95,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 2.27,
+          "multiplicity": "m",
+          "intensity": 0.5,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.61,
+          "multiplicity": "d",
+          "intensity": 0.6,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.9
+      "num_peaks": 4,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Alanine": {
       "hmdb_id": "HMDB0000161",
-      "category": "Amino Acid",
       "peaks": [
-        {"ppm": 1.48, "multiplicity": "d", "intensity": 1.0, "assignment": "CH3-beta"},
-        {"ppm": 3.78, "multiplicity": "q", "intensity": 0.7, "assignment": "CH-alpha"}
+        {
+          "ppm": 1.48,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 3.78,
+          "multiplicity": "q",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB", "NP-MRD"],
-      "confidence": 0.95
+      "num_peaks": 2,
+      "sources_available": [
+        "HMDB",
+        "BMRB",
+        "NP-MRD"
+      ],
+      "num_sources": 3,
+      "overall_confidence": 1.0,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Threonine": {
       "hmdb_id": "HMDB0000167",
-      "category": "Amino Acid",
       "peaks": [
-        {"ppm": 1.33, "multiplicity": "d", "intensity": 1.0, "assignment": "CH3-gamma"},
-        {"ppm": 3.58, "multiplicity": "d", "intensity": 0.8, "assignment": "CH-beta"},
-        {"ppm": 4.25, "multiplicity": "m", "intensity": 0.6, "assignment": "CH-alpha"}
+        {
+          "ppm": 1.33,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.58,
+          "multiplicity": "d",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 4.25,
+          "multiplicity": "m",
+          "intensity": 0.6,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.9
+      "num_peaks": 3,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Asparagine": {
       "hmdb_id": "HMDB0000168",
-      "category": "Amino Acid",
       "peaks": [
-        {"ppm": 2.85, "multiplicity": "dd", "intensity": 0.8, "assignment": "CH2-beta1"},
-        {"ppm": 2.95, "multiplicity": "dd", "intensity": 0.8, "assignment": "CH2-beta2"},
-        {"ppm": 4.00, "multiplicity": "dd", "intensity": 1.0, "assignment": "CH-alpha"}
+        {
+          "ppm": 2.85,
+          "multiplicity": "dd",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 2.95,
+          "multiplicity": "dd",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 4.0,
+          "multiplicity": "dd",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.85
+      "num_peaks": 3,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Aspartate": {
       "hmdb_id": "HMDB0000191",
-      "category": "Amino Acid",
       "peaks": [
-        {"ppm": 2.68, "multiplicity": "dd", "intensity": 1.0, "assignment": "CH2-beta1"},
-        {"ppm": 2.81, "multiplicity": "dd", "intensity": 0.9, "assignment": "CH2-beta2"},
-        {"ppm": 3.89, "multiplicity": "dd", "intensity": 0.7, "assignment": "CH-alpha"}
+        {
+          "ppm": 2.68,
+          "multiplicity": "dd",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 2.81,
+          "multiplicity": "dd",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.89,
+          "multiplicity": "dd",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.85
+      "num_peaks": 3,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Glutamate": {
       "hmdb_id": "HMDB0000148",
-      "category": "Amino Acid",
       "peaks": [
-        {"ppm": 2.06, "multiplicity": "m", "intensity": 0.6, "assignment": "CH2-beta1"},
-        {"ppm": 2.12, "multiplicity": "m", "intensity": 0.6, "assignment": "CH2-beta2"},
-        {"ppm": 2.35, "multiplicity": "m", "intensity": 1.0, "assignment": "CH2-gamma"},
-        {"ppm": 3.75, "multiplicity": "dd", "intensity": 0.7, "assignment": "CH-alpha"}
+        {
+          "ppm": 2.06,
+          "multiplicity": "m",
+          "intensity": 0.6,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 2.12,
+          "multiplicity": "m",
+          "intensity": 0.6,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 2.35,
+          "multiplicity": "m",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.75,
+          "multiplicity": "dd",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.9
+      "num_peaks": 4,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Phenylalanine": {
       "hmdb_id": "HMDB0000159",
-      "category": "Amino Acid",
       "peaks": [
-        {"ppm": 3.12, "multiplicity": "dd", "intensity": 0.5, "assignment": "CH2-beta1"},
-        {"ppm": 3.28, "multiplicity": "dd", "intensity": 0.5, "assignment": "CH2-beta2"},
-        {"ppm": 3.99, "multiplicity": "dd", "intensity": 0.4, "assignment": "CH-alpha"},
-        {"ppm": 7.33, "multiplicity": "m", "intensity": 0.8, "assignment": "H3,5"},
-        {"ppm": 7.37, "multiplicity": "m", "intensity": 1.0, "assignment": "H4"},
-        {"ppm": 7.42, "multiplicity": "m", "intensity": 0.7, "assignment": "H2,6"}
+        {
+          "ppm": 3.12,
+          "multiplicity": "dd",
+          "intensity": 0.5,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.28,
+          "multiplicity": "dd",
+          "intensity": 0.5,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.99,
+          "multiplicity": "dd",
+          "intensity": 0.4,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 7.33,
+          "multiplicity": "m",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 7.37,
+          "multiplicity": "m",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 7.42,
+          "multiplicity": "m",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.9
+      "num_peaks": 6,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Tyrosine": {
       "hmdb_id": "HMDB0000158",
-      "category": "Amino Acid",
       "peaks": [
-        {"ppm": 3.05, "multiplicity": "dd", "intensity": 0.5, "assignment": "CH2-beta"},
-        {"ppm": 3.94, "multiplicity": "dd", "intensity": 0.4, "assignment": "CH-alpha"},
-        {"ppm": 6.90, "multiplicity": "d", "intensity": 1.0, "assignment": "H3,5"},
-        {"ppm": 7.19, "multiplicity": "d", "intensity": 0.95, "assignment": "H2,6"}
+        {
+          "ppm": 3.05,
+          "multiplicity": "dd",
+          "intensity": 0.5,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.94,
+          "multiplicity": "dd",
+          "intensity": 0.4,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 6.9,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 7.19,
+          "multiplicity": "d",
+          "intensity": 0.95,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.9
+      "num_peaks": 4,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Tryptophan": {
       "hmdb_id": "HMDB0000929",
-      "category": "Amino Acid",
       "peaks": [
-        {"ppm": 7.20, "multiplicity": "t", "intensity": 0.7, "assignment": "H5"},
-        {"ppm": 7.29, "multiplicity": "s", "intensity": 0.8, "assignment": "H2"},
-        {"ppm": 7.54, "multiplicity": "d", "intensity": 1.0, "assignment": "H7"},
-        {"ppm": 7.73, "multiplicity": "d", "intensity": 0.9, "assignment": "H4"}
+        {
+          "ppm": 7.2,
+          "multiplicity": "t",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 7.29,
+          "multiplicity": "s",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 7.54,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 7.73,
+          "multiplicity": "d",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.85
+      "num_peaks": 4,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Histidine": {
       "hmdb_id": "HMDB0000177",
-      "category": "Amino Acid",
       "peaks": [
-        {"ppm": 3.24, "multiplicity": "dd", "intensity": 0.5, "assignment": "CH2-beta"},
-        {"ppm": 7.09, "multiplicity": "s", "intensity": 1.0, "assignment": "H4-ring"},
-        {"ppm": 7.99, "multiplicity": "s", "intensity": 0.9, "assignment": "H2-ring"}
+        {
+          "ppm": 3.24,
+          "multiplicity": "dd",
+          "intensity": 0.5,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 7.09,
+          "multiplicity": "s",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 7.99,
+          "multiplicity": "s",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.85
+      "num_peaks": 3,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Lysine": {
       "hmdb_id": "HMDB0000182",
-      "category": "Amino Acid",
       "peaks": [
-        {"ppm": 1.46, "multiplicity": "m", "intensity": 0.6, "assignment": "CH2-gamma"},
-        {"ppm": 1.72, "multiplicity": "m", "intensity": 0.7, "assignment": "CH2-delta"},
-        {"ppm": 1.90, "multiplicity": "m", "intensity": 0.7, "assignment": "CH2-beta"},
-        {"ppm": 3.03, "multiplicity": "t", "intensity": 0.8, "assignment": "CH2-epsilon"},
-        {"ppm": 3.76, "multiplicity": "t", "intensity": 1.0, "assignment": "CH-alpha"}
+        {
+          "ppm": 1.46,
+          "multiplicity": "m",
+          "intensity": 0.6,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 1.72,
+          "multiplicity": "m",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 1.9,
+          "multiplicity": "m",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.03,
+          "multiplicity": "t",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.76,
+          "multiplicity": "t",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.85
+      "num_peaks": 5,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Sarcosine": {
       "hmdb_id": "HMDB0000271",
-      "category": "Amino Acid",
       "peaks": [
-        {"ppm": 2.74, "multiplicity": "s", "intensity": 1.0, "assignment": "N-CH3"},
-        {"ppm": 3.61, "multiplicity": "s", "intensity": 0.9, "assignment": "CH2"}
+        {
+          "ppm": 2.74,
+          "multiplicity": "s",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.61,
+          "multiplicity": "s",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.85
+      "num_peaks": 2,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Glucose": {
       "hmdb_id": "HMDB0000122",
-      "category": "Sugar",
       "peaks": [
-        {"ppm": 3.24, "multiplicity": "dd", "intensity": 0.6, "assignment": "H2-beta"},
-        {"ppm": 3.41, "multiplicity": "t", "intensity": 0.7, "assignment": "H4"},
-        {"ppm": 3.46, "multiplicity": "m", "intensity": 0.7, "assignment": "H3"},
-        {"ppm": 3.49, "multiplicity": "t", "intensity": 0.7, "assignment": "H5"},
-        {"ppm": 3.73, "multiplicity": "m", "intensity": 0.8, "assignment": "H6"},
-        {"ppm": 3.84, "multiplicity": "m", "intensity": 0.6, "assignment": "H6-prime"},
-        {"ppm": 4.65, "multiplicity": "d", "intensity": 0.9, "assignment": "H1-beta"},
-        {"ppm": 5.23, "multiplicity": "d", "intensity": 1.0, "assignment": "H1-alpha"}
+        {
+          "ppm": 3.24,
+          "multiplicity": "dd",
+          "intensity": 0.6,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 3.41,
+          "multiplicity": "t",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 3.46,
+          "multiplicity": "m",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 3.49,
+          "multiplicity": "t",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 3.73,
+          "multiplicity": "m",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 3.84,
+          "multiplicity": "m",
+          "intensity": 0.6,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 4.65,
+          "multiplicity": "d",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 5.23,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB", "NP-MRD"],
-      "confidence": 0.95
+      "num_peaks": 8,
+      "sources_available": [
+        "HMDB",
+        "BMRB",
+        "NP-MRD"
+      ],
+      "num_sources": 3,
+      "overall_confidence": 1.0,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Sucrose": {
       "hmdb_id": "HMDB0000258",
-      "category": "Sugar",
       "peaks": [
-        {"ppm": 3.48, "multiplicity": "t", "intensity": 0.7, "assignment": "H4-glc"},
-        {"ppm": 3.56, "multiplicity": "dd", "intensity": 0.6, "assignment": "H2-glc"},
-        {"ppm": 3.68, "multiplicity": "s", "intensity": 0.8, "assignment": "H1-fru"},
-        {"ppm": 3.76, "multiplicity": "t", "intensity": 0.7, "assignment": "H5-glc"},
-        {"ppm": 3.83, "multiplicity": "m", "intensity": 0.7, "assignment": "H6-glc"},
-        {"ppm": 4.05, "multiplicity": "t", "intensity": 0.8, "assignment": "H4-fru"},
-        {"ppm": 4.22, "multiplicity": "d", "intensity": 0.9, "assignment": "H3-fru"},
-        {"ppm": 5.41, "multiplicity": "d", "intensity": 1.0, "assignment": "H1-glc"}
+        {
+          "ppm": 3.48,
+          "multiplicity": "t",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 3.56,
+          "multiplicity": "dd",
+          "intensity": 0.6,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 3.68,
+          "multiplicity": "s",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 3.76,
+          "multiplicity": "t",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 3.83,
+          "multiplicity": "m",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 4.05,
+          "multiplicity": "t",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 4.22,
+          "multiplicity": "d",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 5.41,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB", "NP-MRD"],
-      "confidence": 0.95
+      "num_peaks": 8,
+      "sources_available": [
+        "HMDB",
+        "BMRB",
+        "NP-MRD"
+      ],
+      "num_sources": 3,
+      "overall_confidence": 1.0,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Maltose": {
       "hmdb_id": "HMDB0000163",
-      "category": "Sugar",
       "peaks": [
-        {"ppm": 3.28, "multiplicity": "t", "intensity": 0.6, "assignment": "H2"},
-        {"ppm": 3.42, "multiplicity": "dd", "intensity": 0.6, "assignment": "H4"},
-        {"ppm": 3.62, "multiplicity": "m", "intensity": 0.7, "assignment": "H3"},
-        {"ppm": 3.78, "multiplicity": "m", "intensity": 0.7, "assignment": "H5"},
-        {"ppm": 3.95, "multiplicity": "m", "intensity": 0.8, "assignment": "H6"},
-        {"ppm": 4.65, "multiplicity": "d", "intensity": 0.9, "assignment": "H1-beta"},
-        {"ppm": 5.22, "multiplicity": "d", "intensity": 0.9, "assignment": "H1-alpha-red"},
-        {"ppm": 5.41, "multiplicity": "d", "intensity": 1.0, "assignment": "H1-alpha-nonred"}
+        {
+          "ppm": 3.28,
+          "multiplicity": "t",
+          "intensity": 0.6,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.42,
+          "multiplicity": "dd",
+          "intensity": 0.6,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.62,
+          "multiplicity": "m",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.78,
+          "multiplicity": "m",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.95,
+          "multiplicity": "m",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 4.65,
+          "multiplicity": "d",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 5.22,
+          "multiplicity": "d",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 5.41,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.85
+      "num_peaks": 8,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Fructose": {
       "hmdb_id": "HMDB0000660",
-      "category": "Sugar",
       "peaks": [
-        {"ppm": 3.57, "multiplicity": "m", "intensity": 0.7, "assignment": "H1a"},
-        {"ppm": 3.70, "multiplicity": "m", "intensity": 0.8, "assignment": "H1b"},
-        {"ppm": 3.80, "multiplicity": "m", "intensity": 0.7, "assignment": "H3"},
-        {"ppm": 3.89, "multiplicity": "dd", "intensity": 0.8, "assignment": "H4"},
-        {"ppm": 4.01, "multiplicity": "dd", "intensity": 0.9, "assignment": "H5"},
-        {"ppm": 4.11, "multiplicity": "d", "intensity": 1.0, "assignment": "H6"}
+        {
+          "ppm": 3.57,
+          "multiplicity": "m",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.7,
+          "multiplicity": "m",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.8,
+          "multiplicity": "m",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.89,
+          "multiplicity": "dd",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 4.01,
+          "multiplicity": "dd",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 4.11,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.85
+      "num_peaks": 6,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Xylose": {
       "hmdb_id": "HMDB0000098",
-      "category": "Sugar",
       "peaks": [
-        {"ppm": 3.22, "multiplicity": "dd", "intensity": 0.7, "assignment": "H2"},
-        {"ppm": 3.42, "multiplicity": "t", "intensity": 0.7, "assignment": "H3"},
-        {"ppm": 3.62, "multiplicity": "m", "intensity": 0.8, "assignment": "H4"},
-        {"ppm": 4.58, "multiplicity": "d", "intensity": 1.0, "assignment": "H1-beta"}
+        {
+          "ppm": 3.22,
+          "multiplicity": "dd",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.42,
+          "multiplicity": "t",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.62,
+          "multiplicity": "m",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 4.58,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB"],
-      "confidence": 0.75
+      "num_peaks": 4,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Citrate": {
       "hmdb_id": "HMDB0000094",
-      "category": "Organic Acid",
       "peaks": [
-        {"ppm": 2.54, "multiplicity": "d", "intensity": 1.0, "assignment": "CH2a"},
-        {"ppm": 2.69, "multiplicity": "d", "intensity": 0.95, "assignment": "CH2b"}
+        {
+          "ppm": 2.54,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 2.69,
+          "multiplicity": "d",
+          "intensity": 0.95,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB", "NP-MRD"],
-      "confidence": 0.95
+      "num_peaks": 2,
+      "sources_available": [
+        "HMDB",
+        "BMRB",
+        "NP-MRD"
+      ],
+      "num_sources": 3,
+      "overall_confidence": 1.0,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Acetate": {
       "hmdb_id": "HMDB0000042",
-      "category": "Organic Acid",
       "peaks": [
-        {"ppm": 1.92, "multiplicity": "s", "intensity": 1.0, "assignment": "CH3"}
+        {
+          "ppm": 1.92,
+          "multiplicity": "s",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB", "NP-MRD"],
-      "confidence": 0.95
+      "num_peaks": 1,
+      "sources_available": [
+        "HMDB",
+        "BMRB",
+        "NP-MRD"
+      ],
+      "num_sources": 3,
+      "overall_confidence": 1.0,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Succinate": {
       "hmdb_id": "HMDB0000254",
-      "category": "Organic Acid",
       "peaks": [
-        {"ppm": 2.41, "multiplicity": "s", "intensity": 1.0, "assignment": "CH2"}
+        {
+          "ppm": 2.41,
+          "multiplicity": "s",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB", "NP-MRD"],
-      "confidence": 0.95
+      "num_peaks": 1,
+      "sources_available": [
+        "HMDB",
+        "BMRB",
+        "NP-MRD"
+      ],
+      "num_sources": 3,
+      "overall_confidence": 1.0,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Propionate": {
       "hmdb_id": "HMDB0000237",
-      "category": "Organic Acid",
       "peaks": [
-        {"ppm": 1.06, "multiplicity": "t", "intensity": 0.8, "assignment": "CH3"},
-        {"ppm": 2.18, "multiplicity": "q", "intensity": 1.0, "assignment": "CH2"}
+        {
+          "ppm": 1.06,
+          "multiplicity": "t",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 2.18,
+          "multiplicity": "q",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.9
+      "num_peaks": 2,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Formate": {
       "hmdb_id": "HMDB0000142",
-      "category": "Organic Acid",
       "peaks": [
-        {"ppm": 8.46, "multiplicity": "s", "intensity": 1.0, "assignment": "CH"}
+        {
+          "ppm": 8.46,
+          "multiplicity": "s",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB", "NP-MRD"],
-      "confidence": 0.95
+      "num_peaks": 1,
+      "sources_available": [
+        "HMDB",
+        "BMRB",
+        "NP-MRD"
+      ],
+      "num_sources": 3,
+      "overall_confidence": 1.0,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Pyroglutamate": {
       "hmdb_id": "HMDB0000267",
-      "category": "Organic Acid",
       "peaks": [
-        {"ppm": 2.04, "multiplicity": "m", "intensity": 0.7, "assignment": "CH2-beta1"},
-        {"ppm": 2.40, "multiplicity": "m", "intensity": 0.8, "assignment": "CH2-gamma1"},
-        {"ppm": 2.51, "multiplicity": "m", "intensity": 0.9, "assignment": "CH2-gamma2"},
-        {"ppm": 4.17, "multiplicity": "dd", "intensity": 1.0, "assignment": "CH-alpha"}
+        {
+          "ppm": 2.04,
+          "multiplicity": "m",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 2.4,
+          "multiplicity": "m",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 2.51,
+          "multiplicity": "m",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 4.17,
+          "multiplicity": "dd",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.85
+      "num_peaks": 4,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Guanosine": {
       "hmdb_id": "HMDB0000133",
-      "category": "Nucleoside",
       "peaks": [
-        {"ppm": 5.92, "multiplicity": "d", "intensity": 0.8, "assignment": "H1-ribose"},
-        {"ppm": 8.01, "multiplicity": "s", "intensity": 1.0, "assignment": "H8"}
+        {
+          "ppm": 5.92,
+          "multiplicity": "d",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 8.01,
+          "multiplicity": "s",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.85
+      "num_peaks": 2,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Uridine": {
       "hmdb_id": "HMDB0000296",
-      "category": "Nucleoside",
       "peaks": [
-        {"ppm": 5.89, "multiplicity": "d", "intensity": 0.7, "assignment": "H1-ribose"},
-        {"ppm": 5.92, "multiplicity": "d", "intensity": 0.8, "assignment": "H5"},
-        {"ppm": 7.87, "multiplicity": "d", "intensity": 1.0, "assignment": "H6"}
+        {
+          "ppm": 5.89,
+          "multiplicity": "d",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 5.92,
+          "multiplicity": "d",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 7.87,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.85
+      "num_peaks": 3,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Adenosine": {
       "hmdb_id": "HMDB0000050",
-      "category": "Nucleoside",
       "peaks": [
-        {"ppm": 6.08, "multiplicity": "d", "intensity": 0.7, "assignment": "H1-ribose"},
-        {"ppm": 8.22, "multiplicity": "s", "intensity": 0.9, "assignment": "H2"},
-        {"ppm": 8.35, "multiplicity": "s", "intensity": 1.0, "assignment": "H8"}
+        {
+          "ppm": 6.08,
+          "multiplicity": "d",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 8.22,
+          "multiplicity": "s",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 8.35,
+          "multiplicity": "s",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.85
+      "num_peaks": 3,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Cytosine": {
       "hmdb_id": "HMDB0000630",
-      "category": "Nucleobase",
       "peaks": [
-        {"ppm": 5.99, "multiplicity": "d", "intensity": 0.8, "assignment": "H5"},
-        {"ppm": 7.86, "multiplicity": "d", "intensity": 1.0, "assignment": "H6"}
+        {
+          "ppm": 5.99,
+          "multiplicity": "d",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB"
+          ],
+          "num_sources": 1,
+          "confidence": 0.333
+        },
+        {
+          "ppm": 7.86,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB"
+          ],
+          "num_sources": 1,
+          "confidence": 0.333
+        }
       ],
-      "sources_validated": ["HMDB"],
-      "confidence": 0.75
+      "num_peaks": 2,
+      "sources_available": [
+        "HMDB"
+      ],
+      "num_sources": 1,
+      "overall_confidence": 0.333,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Uracil": {
       "hmdb_id": "HMDB0000300",
-      "category": "Nucleobase",
       "peaks": [
-        {"ppm": 5.80, "multiplicity": "d", "intensity": 0.8, "assignment": "H5"},
-        {"ppm": 7.54, "multiplicity": "d", "intensity": 1.0, "assignment": "H6"}
+        {
+          "ppm": 5.8,
+          "multiplicity": "d",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 7.54,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.85
+      "num_peaks": 2,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Ethanol": {
       "hmdb_id": "HMDB0000108",
-      "category": "Alcohol",
       "peaks": [
-        {"ppm": 1.18, "multiplicity": "t", "intensity": 1.0, "assignment": "CH3"},
-        {"ppm": 3.66, "multiplicity": "q", "intensity": 0.8, "assignment": "CH2"}
+        {
+          "ppm": 1.18,
+          "multiplicity": "t",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        },
+        {
+          "ppm": 3.66,
+          "multiplicity": "q",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB",
+            "NP-MRD"
+          ],
+          "num_sources": 3,
+          "confidence": 1.0
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB", "NP-MRD"],
-      "confidence": 0.95
+      "num_peaks": 2,
+      "sources_available": [
+        "HMDB",
+        "BMRB",
+        "NP-MRD"
+      ],
+      "num_sources": 3,
+      "overall_confidence": 1.0,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Methanol": {
       "hmdb_id": "HMDB0001875",
-      "category": "Alcohol",
       "peaks": [
-        {"ppm": 3.36, "multiplicity": "s", "intensity": 1.0, "assignment": "CH3"}
+        {
+          "ppm": 3.36,
+          "multiplicity": "s",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.9
+      "num_peaks": 1,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Choline": {
       "hmdb_id": "HMDB0000097",
-      "category": "Quaternary Amine",
       "peaks": [
-        {"ppm": 3.20, "multiplicity": "s", "intensity": 1.0, "assignment": "N(CH3)3"},
-        {"ppm": 3.52, "multiplicity": "m", "intensity": 0.5, "assignment": "CH2-N"},
-        {"ppm": 4.07, "multiplicity": "m", "intensity": 0.5, "assignment": "CH2-O"}
+        {
+          "ppm": 3.2,
+          "multiplicity": "s",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.52,
+          "multiplicity": "m",
+          "intensity": 0.5,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 4.07,
+          "multiplicity": "m",
+          "intensity": 0.5,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.9
+      "num_peaks": 3,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "O-Phosphocholine": {
       "hmdb_id": "HMDB0001565",
-      "category": "Quaternary Amine",
       "peaks": [
-        {"ppm": 3.22, "multiplicity": "s", "intensity": 1.0, "assignment": "N(CH3)3"},
-        {"ppm": 3.58, "multiplicity": "m", "intensity": 0.6, "assignment": "CH2-N"},
-        {"ppm": 4.17, "multiplicity": "m", "intensity": 0.5, "assignment": "CH2-OP"}
+        {
+          "ppm": 3.22,
+          "multiplicity": "s",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.58,
+          "multiplicity": "m",
+          "intensity": 0.6,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 4.17,
+          "multiplicity": "m",
+          "intensity": 0.5,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.85
+      "num_peaks": 3,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "N-Acetylcysteine": {
       "hmdb_id": "HMDB0001890",
-      "category": "Amino Acid Derivative",
       "peaks": [
-        {"ppm": 2.03, "multiplicity": "s", "intensity": 1.0, "assignment": "COCH3"},
-        {"ppm": 2.94, "multiplicity": "dd", "intensity": 0.7, "assignment": "CH2-S"},
-        {"ppm": 4.40, "multiplicity": "dd", "intensity": 0.6, "assignment": "CH-alpha"}
+        {
+          "ppm": 2.03,
+          "multiplicity": "s",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB"
+          ],
+          "num_sources": 1,
+          "confidence": 0.333
+        },
+        {
+          "ppm": 2.94,
+          "multiplicity": "dd",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB"
+          ],
+          "num_sources": 1,
+          "confidence": 0.333
+        },
+        {
+          "ppm": 4.4,
+          "multiplicity": "dd",
+          "intensity": 0.6,
+          "sources_validated": [
+            "HMDB"
+          ],
+          "num_sources": 1,
+          "confidence": 0.333
+        }
       ],
-      "sources_validated": ["HMDB"],
-      "confidence": 0.75
+      "num_peaks": 3,
+      "sources_available": [
+        "HMDB"
+      ],
+      "num_sources": 1,
+      "overall_confidence": 0.333,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "4-Aminobutyrate": {
       "hmdb_id": "HMDB0000112",
-      "category": "Amino Acid",
       "peaks": [
-        {"ppm": 1.90, "multiplicity": "quintet", "intensity": 0.8, "assignment": "CH2-beta"},
-        {"ppm": 2.30, "multiplicity": "t", "intensity": 1.0, "assignment": "CH2-alpha"},
-        {"ppm": 3.01, "multiplicity": "t", "intensity": 0.9, "assignment": "CH2-gamma"}
+        {
+          "ppm": 1.9,
+          "multiplicity": "quintet",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 2.3,
+          "multiplicity": "t",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 3.01,
+          "multiplicity": "t",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.9
+      "num_peaks": 3,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Chlorogenate": {
       "hmdb_id": "HMDB0003164",
-      "category": "Phenolic Compound",
       "peaks": [
-        {"ppm": 6.33, "multiplicity": "d", "intensity": 0.8, "assignment": "H8-cinnamic"},
-        {"ppm": 6.87, "multiplicity": "d", "intensity": 0.7, "assignment": "H5-ring"},
-        {"ppm": 7.06, "multiplicity": "dd", "intensity": 0.9, "assignment": "H6-ring"},
-        {"ppm": 7.56, "multiplicity": "d", "intensity": 1.0, "assignment": "H7-cinnamic"}
+        {
+          "ppm": 6.33,
+          "multiplicity": "d",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "NP-MRD"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 6.87,
+          "multiplicity": "d",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "NP-MRD"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 7.06,
+          "multiplicity": "dd",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB",
+            "NP-MRD"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 7.56,
+          "multiplicity": "d",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "NP-MRD"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["NP-MRD", "HMDB"],
-      "confidence": 0.85
+      "num_peaks": 4,
+      "sources_available": [
+        "HMDB",
+        "NP-MRD"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Nicotinate": {
       "hmdb_id": "HMDB0001488",
-      "category": "Vitamin",
       "peaks": [
-        {"ppm": 7.50, "multiplicity": "dd", "intensity": 0.7, "assignment": "H5"},
-        {"ppm": 8.25, "multiplicity": "d", "intensity": 0.8, "assignment": "H4"},
-        {"ppm": 8.62, "multiplicity": "dd", "intensity": 0.9, "assignment": "H6"},
-        {"ppm": 8.94, "multiplicity": "s", "intensity": 1.0, "assignment": "H2"}
+        {
+          "ppm": 7.5,
+          "multiplicity": "dd",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 8.25,
+          "multiplicity": "d",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 8.62,
+          "multiplicity": "dd",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        },
+        {
+          "ppm": 8.94,
+          "multiplicity": "s",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB",
+            "BMRB"
+          ],
+          "num_sources": 2,
+          "confidence": 0.667
+        }
       ],
-      "sources_validated": ["HMDB", "BMRB"],
-      "confidence": 0.85
+      "num_peaks": 4,
+      "sources_available": [
+        "HMDB",
+        "BMRB"
+      ],
+      "num_sources": 2,
+      "overall_confidence": 0.667,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "S-Adenosylhomocysteine": {
       "hmdb_id": "HMDB0000939",
-      "category": "Nucleoside Derivative",
       "peaks": [
-        {"ppm": 6.05, "multiplicity": "d", "intensity": 0.7, "assignment": "H1-ribose"},
-        {"ppm": 8.18, "multiplicity": "s", "intensity": 0.9, "assignment": "H2"},
-        {"ppm": 8.34, "multiplicity": "s", "intensity": 1.0, "assignment": "H8"}
+        {
+          "ppm": 6.05,
+          "multiplicity": "d",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB"
+          ],
+          "num_sources": 1,
+          "confidence": 0.333
+        },
+        {
+          "ppm": 8.18,
+          "multiplicity": "s",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB"
+          ],
+          "num_sources": 1,
+          "confidence": 0.333
+        },
+        {
+          "ppm": 8.34,
+          "multiplicity": "s",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB"
+          ],
+          "num_sources": 1,
+          "confidence": 0.333
+        }
       ],
-      "sources_validated": ["HMDB"],
-      "confidence": 0.75
+      "num_peaks": 3,
+      "sources_available": [
+        "HMDB"
+      ],
+      "num_sources": 1,
+      "overall_confidence": 0.333,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     },
     "Xanthurenate": {
       "hmdb_id": "HMDB0000881",
-      "category": "Tryptophan Metabolite",
       "peaks": [
-        {"ppm": 6.98, "multiplicity": "d", "intensity": 0.8, "assignment": "H5"},
-        {"ppm": 7.28, "multiplicity": "t", "intensity": 0.7, "assignment": "H6"},
-        {"ppm": 7.58, "multiplicity": "d", "intensity": 0.9, "assignment": "H7"},
-        {"ppm": 8.02, "multiplicity": "s", "intensity": 1.0, "assignment": "H2"}
+        {
+          "ppm": 6.98,
+          "multiplicity": "d",
+          "intensity": 0.8,
+          "sources_validated": [
+            "HMDB"
+          ],
+          "num_sources": 1,
+          "confidence": 0.333
+        },
+        {
+          "ppm": 7.28,
+          "multiplicity": "t",
+          "intensity": 0.7,
+          "sources_validated": [
+            "HMDB"
+          ],
+          "num_sources": 1,
+          "confidence": 0.333
+        },
+        {
+          "ppm": 7.58,
+          "multiplicity": "d",
+          "intensity": 0.9,
+          "sources_validated": [
+            "HMDB"
+          ],
+          "num_sources": 1,
+          "confidence": 0.333
+        },
+        {
+          "ppm": 8.02,
+          "multiplicity": "s",
+          "intensity": 1.0,
+          "sources_validated": [
+            "HMDB"
+          ],
+          "num_sources": 1,
+          "confidence": 0.333
+        }
       ],
-      "sources_validated": ["HMDB"],
-      "confidence": 0.7
+      "num_peaks": 4,
+      "sources_available": [
+        "HMDB"
+      ],
+      "num_sources": 1,
+      "overall_confidence": 0.333,
+      "solvent": "D2O",
+      "ph": 7.0,
+      "frequency_mhz": 600
     }
   }
 }
