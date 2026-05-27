@@ -1,6 +1,29 @@
-streamlit
+# -*- coding: utf-8 -*-
+# Requirements for AutoNMR System
+# Version: 1.0.0
+
+# === Core Libraries ===
 numpy
-pandas
-plotly
 scipy
+pandas
+pybaselines
+
+# === Machine Learning & Deep Learning ===
 scikit-learn
+torch
+# torchvision # Add if using torch vision features
+
+# === Data Fetching & Parsing ===
+requests
+# xml.etree.ElementTree (built-in)
+# re (built-in)
+
+# === Visualization & Plotting ===
+matplotlib
+plotly
+
+# === Streamlit (for Demo UI) ===
+streamlit
+
+# === Model Persistence ===
+# pickle (built-in)
