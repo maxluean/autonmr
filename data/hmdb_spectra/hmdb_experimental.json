@@ -1,0 +1,878 @@
+{
+  "Isoleucine": {
+    "compound": "Isoleucine",
+    "hmdb_id": "HMDB0000172",
+    "peaks": [
+      {
+        "ppm": 0.94,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 1.01,
+        "intensity": 0.9
+      },
+      {
+        "ppm": 1.26,
+        "intensity": 0.5
+      },
+      {
+        "ppm": 1.47,
+        "intensity": 0.4
+      },
+      {
+        "ppm": 3.67,
+        "intensity": 0.6
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 5
+  },
+  "Leucine": {
+    "compound": "Leucine",
+    "hmdb_id": "HMDB0000687",
+    "peaks": [
+      {
+        "ppm": 0.96,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 0.97,
+        "intensity": 0.95
+      },
+      {
+        "ppm": 1.7,
+        "intensity": 0.6
+      },
+      {
+        "ppm": 3.73,
+        "intensity": 0.5
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 4
+  },
+  "Valine": {
+    "compound": "Valine",
+    "hmdb_id": "HMDB0000883",
+    "peaks": [
+      {
+        "ppm": 0.99,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 1.04,
+        "intensity": 0.95
+      },
+      {
+        "ppm": 2.27,
+        "intensity": 0.5
+      },
+      {
+        "ppm": 3.61,
+        "intensity": 0.6
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 4
+  },
+  "Alanine": {
+    "compound": "Alanine",
+    "hmdb_id": "HMDB0000161",
+    "peaks": [
+      {
+        "ppm": 1.48,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 3.78,
+        "intensity": 0.7
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 2
+  },
+  "Threonine": {
+    "compound": "Threonine",
+    "hmdb_id": "HMDB0000167",
+    "peaks": [
+      {
+        "ppm": 1.33,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 3.58,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 4.25,
+        "intensity": 0.6
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 3
+  },
+  "Asparagine": {
+    "compound": "Asparagine",
+    "hmdb_id": "HMDB0000168",
+    "peaks": [
+      {
+        "ppm": 2.85,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 2.95,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 4.0,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 3
+  },
+  "Aspartate": {
+    "compound": "Aspartate",
+    "hmdb_id": "HMDB0000191",
+    "peaks": [
+      {
+        "ppm": 2.68,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 2.81,
+        "intensity": 0.9
+      },
+      {
+        "ppm": 3.89,
+        "intensity": 0.7
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 3
+  },
+  "Glutamate": {
+    "compound": "Glutamate",
+    "hmdb_id": "HMDB0000148",
+    "peaks": [
+      {
+        "ppm": 2.06,
+        "intensity": 0.6
+      },
+      {
+        "ppm": 2.12,
+        "intensity": 0.6
+      },
+      {
+        "ppm": 2.35,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 3.75,
+        "intensity": 0.7
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 4
+  },
+  "Phenylalanine": {
+    "compound": "Phenylalanine",
+    "hmdb_id": "HMDB0000159",
+    "peaks": [
+      {
+        "ppm": 3.12,
+        "intensity": 0.5
+      },
+      {
+        "ppm": 3.28,
+        "intensity": 0.5
+      },
+      {
+        "ppm": 3.99,
+        "intensity": 0.4
+      },
+      {
+        "ppm": 7.33,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 7.37,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 7.42,
+        "intensity": 0.7
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 6
+  },
+  "Tyrosine": {
+    "compound": "Tyrosine",
+    "hmdb_id": "HMDB0000158",
+    "peaks": [
+      {
+        "ppm": 3.05,
+        "intensity": 0.5
+      },
+      {
+        "ppm": 3.94,
+        "intensity": 0.4
+      },
+      {
+        "ppm": 6.9,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 7.19,
+        "intensity": 0.95
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 4
+  },
+  "Tryptophan": {
+    "compound": "Tryptophan",
+    "hmdb_id": "HMDB0000929",
+    "peaks": [
+      {
+        "ppm": 7.2,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 7.29,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 7.54,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 7.73,
+        "intensity": 0.9
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 4
+  },
+  "Histidine": {
+    "compound": "Histidine",
+    "hmdb_id": "HMDB0000177",
+    "peaks": [
+      {
+        "ppm": 3.24,
+        "intensity": 0.5
+      },
+      {
+        "ppm": 7.09,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 7.99,
+        "intensity": 0.9
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 3
+  },
+  "Lysine": {
+    "compound": "Lysine",
+    "hmdb_id": "HMDB0000182",
+    "peaks": [
+      {
+        "ppm": 1.46,
+        "intensity": 0.6
+      },
+      {
+        "ppm": 1.72,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 1.9,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 3.03,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 3.76,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 5
+  },
+  "Sarcosine": {
+    "compound": "Sarcosine",
+    "hmdb_id": "HMDB0000271",
+    "peaks": [
+      {
+        "ppm": 2.74,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 3.61,
+        "intensity": 0.9
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 2
+  },
+  "Glucose": {
+    "compound": "Glucose",
+    "hmdb_id": "HMDB0000122",
+    "peaks": [
+      {
+        "ppm": 3.24,
+        "intensity": 0.6
+      },
+      {
+        "ppm": 3.41,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 3.46,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 3.49,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 3.73,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 3.84,
+        "intensity": 0.6
+      },
+      {
+        "ppm": 4.65,
+        "intensity": 0.9
+      },
+      {
+        "ppm": 5.23,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 8
+  },
+  "Sucrose": {
+    "compound": "Sucrose",
+    "hmdb_id": "HMDB0000258",
+    "peaks": [
+      {
+        "ppm": 3.48,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 3.56,
+        "intensity": 0.6
+      },
+      {
+        "ppm": 3.68,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 3.76,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 3.83,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 4.05,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 4.22,
+        "intensity": 0.9
+      },
+      {
+        "ppm": 5.41,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 8
+  },
+  "Maltose": {
+    "compound": "Maltose",
+    "hmdb_id": "HMDB0000163",
+    "peaks": [
+      {
+        "ppm": 3.28,
+        "intensity": 0.6
+      },
+      {
+        "ppm": 3.42,
+        "intensity": 0.6
+      },
+      {
+        "ppm": 3.62,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 3.78,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 3.95,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 4.65,
+        "intensity": 0.9
+      },
+      {
+        "ppm": 5.22,
+        "intensity": 0.9
+      },
+      {
+        "ppm": 5.41,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 8
+  },
+  "Fructose": {
+    "compound": "Fructose",
+    "hmdb_id": "HMDB0000660",
+    "peaks": [
+      {
+        "ppm": 3.57,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 3.7,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 3.8,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 3.89,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 4.01,
+        "intensity": 0.9
+      },
+      {
+        "ppm": 4.11,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 6
+  },
+  "Xylose": {
+    "compound": "Xylose",
+    "hmdb_id": "HMDB0000098",
+    "peaks": [
+      {
+        "ppm": 3.22,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 3.42,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 3.62,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 4.58,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 4
+  },
+  "Citrate": {
+    "compound": "Citrate",
+    "hmdb_id": "HMDB0000094",
+    "peaks": [
+      {
+        "ppm": 2.54,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 2.69,
+        "intensity": 0.95
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 2
+  },
+  "Acetate": {
+    "compound": "Acetate",
+    "hmdb_id": "HMDB0000042",
+    "peaks": [
+      {
+        "ppm": 1.92,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 1
+  },
+  "Succinate": {
+    "compound": "Succinate",
+    "hmdb_id": "HMDB0000254",
+    "peaks": [
+      {
+        "ppm": 2.41,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 1
+  },
+  "Propionate": {
+    "compound": "Propionate",
+    "hmdb_id": "HMDB0000237",
+    "peaks": [
+      {
+        "ppm": 1.06,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 2.18,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 2
+  },
+  "Formate": {
+    "compound": "Formate",
+    "hmdb_id": "HMDB0000142",
+    "peaks": [
+      {
+        "ppm": 8.46,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 1
+  },
+  "Pyroglutamate": {
+    "compound": "Pyroglutamate",
+    "hmdb_id": "HMDB0000267",
+    "peaks": [
+      {
+        "ppm": 2.04,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 2.4,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 2.51,
+        "intensity": 0.9
+      },
+      {
+        "ppm": 4.17,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 4
+  },
+  "Guanosine": {
+    "compound": "Guanosine",
+    "hmdb_id": "HMDB0000133",
+    "peaks": [
+      {
+        "ppm": 5.92,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 8.01,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 2
+  },
+  "Uridine": {
+    "compound": "Uridine",
+    "hmdb_id": "HMDB0000296",
+    "peaks": [
+      {
+        "ppm": 5.89,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 5.92,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 7.87,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 3
+  },
+  "Adenosine": {
+    "compound": "Adenosine",
+    "hmdb_id": "HMDB0000050",
+    "peaks": [
+      {
+        "ppm": 6.08,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 8.22,
+        "intensity": 0.9
+      },
+      {
+        "ppm": 8.35,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 3
+  },
+  "Cytosine": {
+    "compound": "Cytosine",
+    "hmdb_id": "HMDB0000630",
+    "peaks": [
+      {
+        "ppm": 5.99,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 7.86,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 2
+  },
+  "Uracil": {
+    "compound": "Uracil",
+    "hmdb_id": "HMDB0000300",
+    "peaks": [
+      {
+        "ppm": 5.8,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 7.54,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 2
+  },
+  "Ethanol": {
+    "compound": "Ethanol",
+    "hmdb_id": "HMDB0000108",
+    "peaks": [
+      {
+        "ppm": 1.18,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 3.66,
+        "intensity": 0.8
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 2
+  },
+  "Methanol": {
+    "compound": "Methanol",
+    "hmdb_id": "HMDB0001875",
+    "peaks": [
+      {
+        "ppm": 3.36,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 1
+  },
+  "Choline": {
+    "compound": "Choline",
+    "hmdb_id": "HMDB0000097",
+    "peaks": [
+      {
+        "ppm": 3.2,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 3.52,
+        "intensity": 0.5
+      },
+      {
+        "ppm": 4.07,
+        "intensity": 0.5
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 3
+  },
+  "O-Phosphocholine": {
+    "compound": "O-Phosphocholine",
+    "hmdb_id": "HMDB0001565",
+    "peaks": [
+      {
+        "ppm": 3.22,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 3.58,
+        "intensity": 0.6
+      },
+      {
+        "ppm": 4.17,
+        "intensity": 0.5
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 3
+  },
+  "N-Acetylcysteine": {
+    "compound": "N-Acetylcysteine",
+    "hmdb_id": "HMDB0001890",
+    "peaks": [
+      {
+        "ppm": 2.03,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 2.94,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 4.4,
+        "intensity": 0.6
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 3
+  },
+  "4-Aminobutyrate": {
+    "compound": "4-Aminobutyrate",
+    "hmdb_id": "HMDB0000112",
+    "peaks": [
+      {
+        "ppm": 1.9,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 2.3,
+        "intensity": 1.0
+      },
+      {
+        "ppm": 3.01,
+        "intensity": 0.9
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 3
+  },
+  "Chlorogenate": {
+    "compound": "Chlorogenate",
+    "hmdb_id": "HMDB0003164",
+    "peaks": [
+      {
+        "ppm": 6.33,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 6.87,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 7.06,
+        "intensity": 0.9
+      },
+      {
+        "ppm": 7.56,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 4
+  },
+  "Nicotinate": {
+    "compound": "Nicotinate",
+    "hmdb_id": "HMDB0001488",
+    "peaks": [
+      {
+        "ppm": 7.5,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 8.25,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 8.62,
+        "intensity": 0.9
+      },
+      {
+        "ppm": 8.94,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 4
+  },
+  "S-Adenosylhomocysteine": {
+    "compound": "S-Adenosylhomocysteine",
+    "hmdb_id": "HMDB0000939",
+    "peaks": [
+      {
+        "ppm": 6.05,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 8.18,
+        "intensity": 0.9
+      },
+      {
+        "ppm": 8.34,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 3
+  },
+  "Xanthurenate": {
+    "compound": "Xanthurenate",
+    "hmdb_id": "HMDB0000881",
+    "peaks": [
+      {
+        "ppm": 6.98,
+        "intensity": 0.8
+      },
+      {
+        "ppm": 7.28,
+        "intensity": 0.7
+      },
+      {
+        "ppm": 7.58,
+        "intensity": 0.9
+      },
+      {
+        "ppm": 8.02,
+        "intensity": 1.0
+      }
+    ],
+    "source": "HMDB_verified_local",
+    "num_peaks": 4
+  }
+}
