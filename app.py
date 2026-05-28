@@ -451,9 +451,9 @@ st.markdown("""
 
     .stButton > button,
     .stDownloadButton > button {
-        background: var(--navy);
-        color: #FFFFFF;
-        border: 1px solid var(--navy);
+        background: #FFFFFF;
+        color: var(--navy);
+        border: 1px solid var(--border-strong);
         border-radius: 8px;
         padding: 0.56rem 1rem;
         font-weight: 700;
@@ -463,21 +463,33 @@ st.markdown("""
 
     .stButton > button:hover,
     .stDownloadButton > button:hover {
-        background: #1E293B;
-        border-color: #1E293B;
-        color: #FFFFFF;
+        background: #F8FAFC;
+        border-color: var(--blue);
+        color: var(--blue);
     }
 
     .stButton > button[kind="primary"] {
-        background: var(--orange);
-        border-color: var(--orange);
-        color: var(--navy);
+        background: var(--blue);
+        border-color: var(--blue);
+        color: #FFFFFF;
     }
 
     .stButton > button[kind="primary"]:hover {
-        background: #D97706;
-        border-color: #D97706;
-        color: var(--navy);
+        background: #1E40AF;
+        border-color: #1E40AF;
+        color: #FFFFFF;
+    }
+
+    .stDownloadButton > button {
+        background: var(--navy);
+        border-color: var(--navy);
+        color: #FFFFFF;
+    }
+
+    .stDownloadButton > button:hover {
+        background: #1E293B;
+        border-color: #1E293B;
+        color: #FFFFFF;
     }
 
     [data-testid="stMetric"] {
@@ -497,6 +509,31 @@ st.markdown("""
         border: 1px dashed var(--border-strong);
         border-radius: 8px;
         background: #FFFFFF;
+    }
+
+    [data-testid="stFileUploader"] section button {
+        background: var(--navy);
+        border: 1px solid var(--navy);
+        color: #FFFFFF;
+        border-radius: 8px;
+        font-weight: 700;
+    }
+
+    [data-testid="stFileUploader"] section button:hover {
+        background: #1E293B;
+        border-color: #1E293B;
+        color: #FFFFFF;
+    }
+
+    [data-baseweb="select"] > div {
+        background: #FFFFFF;
+        border-color: var(--border-strong);
+    }
+
+    [data-baseweb="select"] input,
+    [data-baseweb="select"] svg,
+    [data-baseweb="select"] [data-baseweb="tag"] {
+        color: var(--navy) !important;
     }
 
     div[data-testid="stAlert"] {
