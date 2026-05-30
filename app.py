@@ -1051,8 +1051,8 @@ def page_home():
 
     with col1:
         st.markdown(
-            metric_card("< 5 นาที", "Processing Time",
-                        "ลดเวลาจาก 2-4 ชม. แบบ manual", "Time"),
+            metric_card("< 5 min", "Processing Time",
+                        "Reduced from 2-4 hours manually", "Time"),
             unsafe_allow_html=True
         )
 
